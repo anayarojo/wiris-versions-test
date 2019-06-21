@@ -32,7 +32,7 @@
               </button>
             </div>
             <div class="modal-body">
-              <textarea id="mytextarea">Hello, World!</textarea>
+              <textarea id="mytextarea2">Hello, World!</textarea>
             </div>
           </div>
       </div>
@@ -46,6 +46,20 @@
     <script>
         tinymce.init({
           selector:'textarea',
+          plugins: "noneditable save image link hr textcolor autolink paste table fullscreen code autoresize",
+          toolbar: "undo redo | styleselect forecolor backcolor hr | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image table | tiny_mce_wiris_formulaEditor | fullscreen code",
+          external_plugins: {
+            tiny_mce_wiris: 'https://www.wiris.net/demo/plugins/tiny_mce/plugin.js'
+          },
+          menubar: false,
+          verify_html: false,
+          paste_data_images: true,
+          relative_urls: false,
+          remove_script_host: false,
+          convert_urls: true,
+        });
+        tinymce.init({
+          selector:'textarea2',
           plugins: "noneditable save image link hr textcolor autolink paste table fullscreen code autoresize",
           toolbar: "undo redo | styleselect forecolor backcolor hr | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image table | tiny_mce_wiris_formulaEditor | fullscreen code",
           external_plugins: {
