@@ -26,7 +26,7 @@
       <div class="modal-dialog modal-xl">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title h4" id="myExtraLargeModalLabel">Wiris 4.5.3 ─ Bootstrap 4.0.0</h5>
+              <h5 class="modal-title h4" id="myExtraLargeModalLabel">Wiris 4.5.3 ─ Bootstrap 4.3.0</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">×</span>
               </button>
@@ -45,21 +45,21 @@
     <script src="js/plugins/tinymce/4.5.3/js/tinymce/tinymce.min.js"></script>
     <script>
         tinymce.init({
-            selector:'textarea',
-            plugins: "noneditable save image link hr textcolor autolink paste table fullscreen code autoresize",
-            toolbar: "undo redo | styleselect forecolor backcolor hr | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image table | tiny_mce_wiris_formulaEditor | fullscreen code",
-            external_plugins: {
+          selector:'#mytextarea',
+          plugins: "noneditable save image link hr textcolor autolink paste table fullscreen code autoresize",
+          toolbar: "undo redo | styleselect forecolor backcolor hr | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image table | tiny_mce_wiris_formulaEditor | fullscreen code",
+          external_plugins: {
             tiny_mce_wiris: 'https://www.wiris.net/demo/plugins/tiny_mce/plugin.js'
-            },
-            menubar: false,
-            verify_html: false,
-            paste_data_images: true,
-            relative_urls: false,
-            remove_script_host: false,
-            convert_urls: true,
+          },
+          menubar: false,
+          verify_html: false,
+          paste_data_images: true,
+          relative_urls: false,
+          remove_script_host: false,
+          convert_urls: true,
         });
         tinymce.init({
-          selector:'textarea2',
+          selector:'#mytextarea2',
           plugins: "noneditable save image link hr textcolor autolink paste table fullscreen code autoresize",
           toolbar: "undo redo | styleselect forecolor backcolor hr | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image table | tiny_mce_wiris_formulaEditor | fullscreen code",
           external_plugins: {
