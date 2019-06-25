@@ -4,7 +4,7 @@ Prueba con diferentes versiones de TinyMCE y Bootstrap utilizando WirisEditor
 
 ### Demos
 
-[Wiris Versions Text](https://anayarojo.github.io/wiris-versions-test/index.html)
+[Wiris Versions Test](https://anayarojo.github.io/wiris-versions-test/index.html)
 
 ### Sin Wiris
 
