@@ -2,11 +2,11 @@
 
 Prueba con diferentes versiones de TinyMCE y Bootstrap utilizando WirisEditor
 
-#### Demo
+### Demos
 
-#### Versions
+[Wiris Versions Text](https://anayarojo.github.io/wiris-versions-test/index.html)
 
-##### Sin Wiris
+### Sin Wiris
 
 |TinyMCE / Bootstrap|4.0.0|4.2.1|4.3.0|
 |-------------------|-----|-----|----|
@@ -14,8 +14,7 @@ Prueba con diferentes versiones de TinyMCE y Bootstrap utilizando WirisEditor
 |5.0.0|[T 5.0.0 ─ B 4.0.0](https://anayarojo.github.io/wiris-versions-test/tinymce-5.0.0-bootstrap-4.0.0.html)|[T 5.0.0 ─ B 4.2.1](https://anayarojo.github.io/wiris-versions-test/tinymce-5.0.0-bootstrap-4.2.1.html)|[T 5.0.0 ─ B 4.3.0](https://anayarojo.github.io/wiris-versions-test/tinymce-5.0.0-bootstrap-4.3.0.html)|
 |5.0.0|[T 5.0.0 ─ B 4.0.0](https://anayarojo.github.io/wiris-versions-test/tinymce-5.0.0-bootstrap-4.0.0.html)|[T 5.0.0 ─ B 4.2.1](https://anayarojo.github.io/wiris-versions-test/tinymce-5.0.0-bootstrap-4.2.1.html)|[T 5.0.0 ─ B 4.3.0](https://anayarojo.github.io/wiris-versions-test/tinymce-5.0.0-bootstrap-4.3.0.html)|
 
-
-##### Con Wiris
+### Con Wiris
 
 |TinyMCE / Bootstrap|4.0.0|4.2.1|4.3.0|
 |-------------------|-----|-----|----|
